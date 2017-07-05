@@ -57,7 +57,12 @@ const rduce = function rduce( array, reducer, defer ){
 		@end-meta-configuration
 	*/
 
-	array = Array.from( array );
+	try{
+		array = Array.from( array );
+
+	}catch( error ){
+		array = [ ];
+	}
 
 	let result = defer = ( arguments.length == 2 )? array[ 0 ] : defer;
 

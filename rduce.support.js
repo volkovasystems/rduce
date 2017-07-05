@@ -57,7 +57,12 @@ var rduce = function rduce(array, reducer, defer) {
                                                    	@end-meta-configuration
                                                    */
 
-	array = (0, _from2.default)(array);
+	try {
+		array = (0, _from2.default)(array);
+
+	} catch (error) {
+		array = [];
+	}
 
 	var result = defer = arguments.length == 2 ? array[0] : defer;
 
