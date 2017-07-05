@@ -1,0 +1,26 @@
+{
+  "name": "rduce",
+  "version": "0.0.0",
+  "description": "Alternative array reduce function.",
+  "main": "rduce.deploy.js",
+  "support": "rduce.support.js",
+  "authors": [
+    "Richeve S. Bebedor <richeve.bebedor@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "alternative",
+    "array",
+    "reduce",
+    "function",
+    "rduce"
+  ],
+  "homepage": "https://github.com/volkovasystems/rduce",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
